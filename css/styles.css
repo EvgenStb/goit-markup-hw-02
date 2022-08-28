@@ -1,0 +1,8 @@
+.logo-color {
+        color: blue;
+}
+
+.logo-color:hover {
+    color: red;
+    
+}
