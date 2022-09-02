@@ -1,8 +1,196 @@
-.logo-color {
-        color: blue;
+/* Basic color #212121 */
+/* Basic text color #757575 */
+/* Accent color #2196F3 */
+/* Hero text color #FFFFFF */
+/* Footer contact rgba(255, 255, 255, 0.6) */
+/* Basic background color #FFFFFF */
+:root {
+    --primary-color:#757575;
+    --secondary-color:#2196F3;
+    --link-color:#212121;
+    --title-color: #212121;
+    --hero-text-color:#FFFFFF;
+    --background-color-dark:#2F303A;
+    --bgc-btn-color:#F5F4FA;
+    
+    
 }
 
-.logo-color:hover {
-    color: red;
+.page {
+    background-color: #F5F5F5;
+    color: var(--primary-color) ;
+    font-family: 'Roboto', sans-serif;
+
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.hide {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.contact {
+    color: var(--primary-color);
+}
+
+/* Header */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+.logo-color {
+    color:var(--secondary-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+}
+.header-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     
+}
+.active:hover,
+.active:focus {
+    color: var(--secondary-color);
+}
+/* Hero */
+.hero{
+    color: var(--hero-text-color);
+    background-color: var(--background-color-dark);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-btn {
+    color: var(--hero-text-color);
+    background-color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.06em
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--secondary-color);
+    background-color: var(--hero-text-color);
+}
+/* Features */
+.benefit {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.benefit-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+/* About */
+/* title for section about and team */
+.title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+/* Team */
+.team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.list-title {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
+    background-color: var(--background-color-dark);
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.link-map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--hero-text-color);
+    }
+
+.footer-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Portfolio */
+
+.filter-btn {
+    color: var(--link-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--bgc-btn-color);
+}
+.filter-btn:hover {
+    background-color:var(--secondary-color) ;
+}
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--title-color);
+}
+.project-dsc {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
