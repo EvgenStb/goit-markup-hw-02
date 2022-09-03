@@ -96,15 +96,16 @@
     line-height: 1.8;
     text-align: center;
     letter-spacing: 0.06em
+    
 }
 .hero-btn:hover,
 .hero-btn:focus {
     color: var(--secondary-color);
     background-color: var(--hero-text-color);
+    cursor: pointer;
 }
 /* Features */
 .benefit {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -144,6 +145,10 @@
 .footer {
     background-color: var(--background-color-dark);
 }
+.adress {
+    font-style: normal;
+}
+
 .logo-footer {
     font-family: 'Raleway';
     font-weight: 700;
@@ -161,7 +166,6 @@
     }
 
 .footer-contact {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -179,6 +183,7 @@
 }
 .filter-btn:hover {
     background-color:var(--secondary-color) ;
+    cursor: pointer;
 }
 .project-title {
     font-weight: 700;
@@ -189,7 +194,6 @@
 }
 .project-dsc {
     color: var(--primary-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
