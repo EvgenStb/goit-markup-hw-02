@@ -14,7 +14,7 @@
 	--bgc-btn-color: #f5f4fa;
 }
 
-.page {
+body {
 	background-color: #f5f5f5;
 	color: var(--primary-color);
 	font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
