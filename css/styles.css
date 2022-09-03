@@ -67,6 +67,9 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--link-color);
 }
+.current {
+    color: var(--secondary-color);
+}
 
 .header-contact {
 	font-weight: 500;
